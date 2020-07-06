@@ -1,0 +1,81 @@
+/* FOR EVERY PAGE */
+@font-face {
+    font-family: "Serif";
+    src: url(/fonts/SourceSerifPro-Regular.ttf);
+}
+
+body, html {
+    background-color: #184D47;
+    font-family: "Serif";
+    color: #D6EFC7;
+}
+hr {
+    border-top: 2px solid #EEBB4D;
+}
+.navbar {
+    background-color: #D6EFC7
+}
+#www {
+    font-size: 2em;
+    color: #184D47;
+    text-shadow: 2px 2px 3px #EEBB4D;
+}
+
+h1 {
+    text-align: center;
+    padding: 5%;
+}
+p {
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+a {
+    color: #6ea04b;
+}
+a:hover {
+    font-size: larger;
+    color: #EEBB4D;
+}
+
+/* INDIVIDUAL */
+@font-face {
+    font-family: "W1";
+    src: url(/fonts/ShadowsIntoLight-Regular.ttf);
+}
+@font-face {
+    font-family: "W2";
+    src: url(/fonts/Caveat-Regular.ttf);
+}
+#signature {
+    text-align: right;
+    font-size: 2em;
+}
+#W1 {
+    font-family: "W1";
+}
+#W2 {
+    font-family: "W2";
+}
+h2 {
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+#location {
+    text-align: center;
+    font-size: 1,5em;
+}
+img {
+    margin-bottom: 5%;
+    border: 3px solid #856522;
+}
+img:hover {
+    box-shadow: -3px 3px 5px #EEBB4D;
+}
+.float {
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+    text-align: center;
+    font-size: 2em;
+}

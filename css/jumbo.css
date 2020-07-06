@@ -1,0 +1,45 @@
+/* FOR EVERY PAGE */
+@font-face {
+    font-family: "Serif";
+    src: url(/fonts/SourceSerifPro-Regular.ttf);
+}
+
+body, html {
+    background-color: #184D47;
+    font-family: "Serif";
+    color: #D6EFC7;
+}
+hr {
+    border-top: 2px solid #EEBB4D;
+}
+.navbar {
+    background-color: #D6EFC7
+}
+#www {
+    font-size: 2em;
+    color: #184D47;
+    text-shadow: 2px 2px 3px #EEBB4D;
+}
+a {
+    color: #6ea04b;
+}
+a:hover {
+    font-size: larger;
+    color: #EEBB4D;
+}
+h1 {
+    text-align: center;
+    padding: 5%;
+}
+
+/* INDIVIDUAL */
+.jumbotron {
+    background-color: #184D47;
+    font-family: "Serif";
+    color: #D6EFC7;
+}
+p {
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
